@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;    
+}
+
+
+/* Navbar */
+
+#desktopNav, .deskNavElements{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+
+.deskNavElements {
+    list-style: none;
+    gap: 1rem;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+li>a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+/* Sections */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+
+/* About */
+#about {
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.aboutPicContainer {
+    align-content: center;
+    margin-right: 1rem ;
+}
+
+.aboutTextContainer {
+    align-content: center;
+    margin-left: 1rem ;
+}
+
+.aboutTextContainer>img:hover {
+    cursor: pointer;
+}
+
+.aboutTextContainer > img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/* Education */
+
+#education {
+    display: flex;
+    justify-content: space-around;
+}
+
+.eColBullets,
+.eUniBullets  {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.college {
+    margin-right: 1rem;
+}
+
+.university {
+    margin-left: 1rem;
+}
+
+
+/* Projects */
+
+#projects {
+    display: flex;
+    justify-content: space-around;
+    gap: .5rem;
+}
+
+.projectsCard {
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 250px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Contact */
+
+
+
+.contactMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contactMain hr {
+    width: 6rem;
+    height: 1px;
+    background-color: black;
+}
+
+.contactInputs {
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+}
+
+.contactInputsMail {
+    border-radius: 5px;
+    width: 250px;
+    height: 150px;
+}
+
+.contactInputs::placeholder,
+.contactInputsMail::placeholder {
+    padding: 1rem;
+}
+
+.contactBtn {
+    width: 85px;
+    height: 30px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevan</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mediaQueries.css">
+    <link rel="stylesheet" href="./css/animations.css">
+</head>
+<body>
+    <nav id="desktopNav">
+        <div class="logo">Jeevan SP</div>
+        <div>
+            <ul class="deskNavElements">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="aboutPicContainer">Lorem Ipsum</div>
+        <div class="aboutTextContainer">
+            <p class="aboutTextOne">Hi, I am,</p>
+            <h1 class="aboutTextTwo">Jeevan,</h1>
+            <h1 class="aboutTextThree">A Software Development Student</h1>
+            <img src="./images/linkedin.svg" alt="link to LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/jeevansp/'">
+            <img src="./images/icons8-github.svg" alt="link to GitHub profile" class="icon" onclick="location.href='https://github.com/GRiMES65'">
+        </div> 
+    </section>
+
+    <section id="education">
+        
+        <div class="college">
+            <h2>Software Development and Network Engineering</h2>
+            <h2>Sheridan College, Oakville (2024-26)</h2>
+            <p class="eColText">
+                <ul class="eColBullets">
+                    <li>Python (Intermediate)</li>
+                    <li>HTML, CSS, JS (Intermediate)</li>
+                    <li>MySQL (Intermediate)</li>
+                    <li>Java (Intermediate)</li>
+                    <li>C++ (Beginner)</li>
+                </ul>
+            </p>
+        </div>
+        
+        <div class="university">
+            <h2>Bachelor's in Physics</h2>
+            <h2>University of Calicut (2019-22)</h2>
+            <p class="eUniText">
+                <ul class="eUniBullets">
+                    <li>Classical Mechanics</li>
+                    <li>Nuclear Physics</li>
+                    <li>Electrodynamics</li>
+                </ul>
+            </p>
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <div class="projectsCard">
+            <h3>One</h3>
+        </div>
+        <div class="projectsCard">
+            <h3>Two</h3>
+        </div>
+        <div class="projectsCard">
+            <h3>Three</h3>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contactContainer">
+            <form action="" class="contactMain">
+                <div>
+                    <h2>Get In Touch</h2>
+                </div>
+                <hr>
+                <input type="text" name="name" placeholder="John Doe" class="contactInputs" required>
+                <input type="text" name="email" placeholder="Email" class="contactInputs" required>
+                <textarea name="message" placeholder="Message" class="contactInputsMail" required></textarea>
+                <button type="submit" class="contactBtn">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
