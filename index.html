@@ -77,14 +77,16 @@
     <section id="contact">
         <div class="contactContainer">
             <form action="" class="contactMain">
-                <div>
-                    <h2>Get In Touch</h2>
+                <div class="contactForms">
+                    <input type="text" name="name" placeholder="John Doe" class="contactInputs" required>
+                    <input type="text" name="email" placeholder="Email" class="contactInputs" required>
+                    <textarea name="message" placeholder="Message" id="contactInputsMail" required></textarea>
+                    <button type="submit" class="contactBtn">Submit</button>
                 </div>
-                <hr>
-                <input type="text" name="name" placeholder="John Doe" class="contactInputs" required>
-                <input type="text" name="email" placeholder="Email" class="contactInputs" required>
-                <textarea name="message" placeholder="Message" class="contactInputsMail" required></textarea>
-                <button type="submit" class="contactBtn">Submit</button>
+                <div class="contactText">
+                    <h2>Get In Touch</h2>
+                    <hr>
+                </div>
             </form>
         </div>
     </section>

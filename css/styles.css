@@ -122,8 +122,7 @@ section {
 
 .contactMain {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -137,20 +136,29 @@ section {
     border-radius: 5px;
     width: 250px;
     height: 50px;
+    padding: 1rem;
 }
 
-.contactInputsMail {
+.contactForms {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 2rem;
+}
+#contactInputsMail {
     border-radius: 5px;
     width: 250px;
     height: 150px;
-}
-
-.contactInputs::placeholder,
-.contactInputsMail::placeholder {
     padding: 1rem;
 }
 
 .contactBtn {
     width: 85px;
     height: 30px;
+}
+
+.contactText {
+    align-content: space-between;
+    padding-left: 2rem;
+    padding-top: 10%;
 }
