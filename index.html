@@ -20,16 +20,29 @@
             </ul>
         </div>
     </nav>
+    
+    <section id="hero">
+        <div class="heroPicContainer">Lorem Ipsum</div>
+        <div class="heroTextContainer">
+            <p class="heroTextOne">Hi, I am,</p>
+            <h1 class="heroTextTwo">Jeevan,</h1>
+            <h1 class="heroTextThree">A Software Development Student</h1>
+            <img src="./images/linkedin.svg" alt="link to LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/jeevansp/'">
+            <img src="./images/icons8-github.svg" alt="link to GitHub profile" class="icon" id="githubIcon" onclick="location.href='https://github.com/GRiMES65'">
+            <div class="resume">
+                <button class="resumeButton"><a href="">Resume</a></button>
+            </div>
+        </div> 
+    </section>
 
     <section id="about">
         <div class="aboutPicContainer">Lorem Ipsum</div>
         <div class="aboutTextContainer">
-            <p class="aboutTextOne">Hi, I am,</p>
-            <h1 class="aboutTextTwo">Jeevan,</h1>
-            <h1 class="aboutTextThree">A Software Development Student</h1>
-            <img src="./images/linkedin.svg" alt="link to LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/jeevansp/'">
-            <img src="./images/icons8-github.svg" alt="link to GitHub profile" class="icon" onclick="location.href='https://github.com/GRiMES65'">
-        </div> 
+            <p class="aboutTextOne">I am a <strong> Physics graduate </strong> and an aspiring</p>
+            <h1 class="aboutTextTwo">Software Developer</h1>
+            <p>with an interest in Artificial Intelligence and Machine Learning</p>
+            <p>and Web Development.</p>
+        </div>
     </section>
 
     <section id="education">
@@ -63,30 +76,54 @@
     </section>
 
     <section id="projects">
-        <div class="projectsCard">
-            <h3>One</h3>
+        <div class="cardWrapper">    
+            <img src="/images/calculator.jpg" alt="" class="projectsCard">
+            <div class="cardContent">
+                <h2 class="cardHead">Calculator</h2>
+                <p class="cardDesc">A simple calculator app built using Python</p>
+                <button class="projectBtn">Coming Soon...</button>
+            </div>
         </div>
-        <div class="projectsCard">
-            <h3>Two</h3>
+        <div class="cardWrapper">
+            <img src="/images/ping pong.jpg" alt="" class="projectsCard">
+            <div class="cardContent">
+                <h2 class="cardHead">Ping Pong</h2>
+                <p class="cardDesc">Simple ping pong game built using Python</p>
+                <button class="projectBtn">Coming Soon...</button>
+            </div>
         </div>
-        <div class="projectsCard">
-            <h3>Three</h3>
+        <div class="cardWrapper">
+            <img src="/images/shopping website.jpg" alt="" class="projectsCard">
+            <div class="cardContent">
+                <h2 class="cardHead">e-Commerce</h2>
+                <p class="cardDesc">Shopping website created using HTML, CSS, and JS</p>
+                <button class="projectBtn">Coming Soon...</button>
+            </div>
+        </div>
+        <div class="cardWrapper">
+            <img src="/images/tictactoe.jpg" alt="" class="projectsCard">
+            <div class="cardContent">
+                <h2 class="cardHead">Tic Tac Toe</h2>
+                <p class="cardDesc">A simple game of tic toe built using Python</p>
+                <button class="projectBtn">Coming Soon...</button>
+            </div>
         </div>
     </section>
 
     <section id="contact">
         <div class="contactContainer">
             <form action="" class="contactMain">
+                <div class="contactText">
+                    <h2>Get In Touch</h2>
+                    <hr>
+                </div>
                 <div class="contactForms">
                     <input type="text" name="name" placeholder="John Doe" class="contactInputs" required>
                     <input type="text" name="email" placeholder="Email" class="contactInputs" required>
                     <textarea name="message" placeholder="Message" id="contactInputsMail" required></textarea>
                     <button type="submit" class="contactBtn">Submit</button>
                 </div>
-                <div class="contactText">
-                    <h2>Get In Touch</h2>
-                    <hr>
-                </div>
+                
             </form>
         </div>
     </section>
