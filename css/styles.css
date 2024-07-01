@@ -39,7 +39,18 @@ body {
 .deskNavElements {
     list-style: none;
     gap: 1rem;
+    
+}
 
+.deskNav {
+    transition: all 0.5s;
+}
+
+.deskNav:hover{
+    transform: scale(1.15);
+    text-decoration: underline;
+    text-underline-offset: 0.250rem;
+    text-decoration-color: #f64d96;
 }
 
 .logo {
@@ -93,13 +104,27 @@ section {
 .resumeButton {
     padding: .65rem;
     border-radius: .8rem;
-    background-color: rgb(0, 154, 237);
+    background-color:white;
     border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.resumeButton:hover {
+    transform: translateY(10px);
+    border: 1px solid var(--grad-clr-4);
+    background-color: black;
+    color: white;
+}
+
+.resumeButton:hover a{
+    color: var(--grad-clr-4);
 }
 
 .resumeButton a {
     text-decoration: none;
-    color: white;
+    color: black;
+    transition: all 0.5s;
 }
 
 #githubIcon {
@@ -276,12 +301,17 @@ section {
     border-radius: .35rem;
     border: none;
     outline: none;
-    color: white;
-    background-color: rgb(0, 154, 237); 
+    color: rgb(57, 56, 56);
+    background-color: white; 
+    transition: all 0.5s ease-out;
 }
 
 .projectBtn:hover{
     cursor: pointer;
+    transform: scale(1.1);
+    border: 1px solid white;
+    background-color: black;
+    color: white;
 }
 
 .cardWrapper:hover .projectsCard {
@@ -331,18 +361,27 @@ section {
 }
 
 .contactBtn {
-    width: 5rem;
-    height: 2rem;
-    border-radius: .3rem;
+    padding: 0.65rem;
+    border-radius: 0.8rem;
     border: none;
     outline: none;
-    background-color: rgb(0, 154, 237);
-    color: white;
+    background-color: white;
+    color: black;
     align-self: center;
+    transition: all 0.5s ease-out;
+}
+
+
+
+.contactBtn:hover {
+    transform: translateY(10px);
+    border: 1px solid var(--grad-clr-4);
+    background-color: black;
+    color: white;
 }
 
 .contactText {
     align-content: center;
-   
     padding-top: 10%;
 }
+

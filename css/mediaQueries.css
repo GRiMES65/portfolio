@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+
+
+    #projects{
+        flex-direction: column;
+    }
+
+    section {
+        min-height: auto;
+    }
+
+    #contact{
+        padding-top: 2rem;
+    }
+}
